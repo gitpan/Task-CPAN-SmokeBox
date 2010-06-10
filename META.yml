@@ -1,0 +1,23 @@
+---
+abstract: 'Install the things to make a CPAN Testers smokebox'
+author:
+  - 'Chris Williams <chris@bingosnet.co.uk>'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: 6.31
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.101582, CPAN::Meta::Converter version 2.101600'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-CPAN-SmokeBox
+requires:
+  App::Metabase::Relayd: 0.10
+  App::SmokeBox::Mini: 0.26
+  App::SmokeBox::Mini::Plugin::IRC: 0.04
+  App::SmokeBrew: 0.06
+resources:
+  homepage: http://github.com/bingos/perl-task-modules/tree
+  repository: git://github.com/bingos/perl-task-modules.git
+version: 0.02
