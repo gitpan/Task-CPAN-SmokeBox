@@ -20,12 +20,14 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'Task::CPAN::SmokeBox',
   'PREREQ_PM' => {
-    'App::Metabase::Relayd' => '0.10',
-    'App::SmokeBox::Mini' => '0.26',
-    'App::SmokeBox::Mini::Plugin::IRC' => '0.04',
-    'App::SmokeBrew' => '0.06'
+    'App::Metabase::Relayd' => '0.22',
+    'App::SmokeBox::Mini' => '0.40',
+    'App::SmokeBox::Mini::Plugin::IRC' => '0.06',
+    'App::SmokeBox::Mini::Plugin::Stats' => '0.08',
+    'App::SmokeBrew' => '0.28',
+    'App::SmokeBrew::Plugin::BINGOS' => '0.04'
   },
-  'VERSION' => '0.02',
+  'VERSION' => '0.04',
   'test' => {
     'TESTS' => 't/*.t'
   }
